@@ -44,3 +44,12 @@ To access the distro filesystem from Windows:
 \\WSL$
 ```
 
+Converts from Windows route to Linux route:
+```
+wslpath [route]
+```
+
+Converts from Linux route to Windows route:
+```
+wslpath -w [route]
+```
